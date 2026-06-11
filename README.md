@@ -59,4 +59,6 @@ Diya Lohana
 
 ## License
 
-This project is created for educational purposes.
+## About
+
+This project was developed during the ORIC MUET Internship Program using React.js.
