@@ -43,7 +43,7 @@ function LoginPage() {
     const lower = email.toLowerCase();
     if (lower.endsWith('@students.muet.edu.pk')) {
       const part = lower.split('@')[0];
-      return /^\d{2}(cs|sw|tl|el|es|bm|ce|me|ch|ar|bba|bscs|mech|te|it)\d+$/i.test(part);
+      return /^\d{2}(cs|sw|tl|el|es|bm|ce|me|ch|ar|bba|bscs|mech|te|it|mcs|mee|mte|mce|mse|mba|phd)\d+$/i.test(part);
     }
     if (
       lower.endsWith('@faculty.muet.edu.pk') ||
