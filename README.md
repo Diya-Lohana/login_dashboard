@@ -1,64 +1,74 @@
+# ORIC MUET — Industry Partner Portal
 
-# ORIC MUET Portal
+A professional React.js web application built for the **Office of Research, Innovation & Commercialization (ORIC)** at Mehran University of Engineering & Technology, Jamshoro. Developed during the ORIC MUET Internship Program, June 2026.
 
-A React-based web application for the ORIC MUET Portal.
+---
+
+## Overview
+
+This portal provides industry partners with a centralized platform to explore student innovations, submit collaboration requests, sponsor research projects, and engage directly with MUET faculty — all backed by real ORIC data, active MoU partnerships and live contact information.
+
+---
 
 ## Features
 
-* User Login Authentication
-* New User Registration
-* User Dashboard
-* Settings Page
-* Password Change Functionality
-* Responsive User Interface
-* Local Storage Based Authentication
+- 🔐 **Authentication** — Email-based login and registration with protected routing
+- 📊 **Dashboard** — Live stats, startup pipeline visualization and announcements panel
+- 🔍 **Browse Listings** — 17 entries including Startups, FYPs, STP Startups, Gen-AI Projects and National Idea Bank submissions
+- 🤝 **Collaboration Requests** — Submit MoU, internship, joint research and training requests with a visual status tracker
+- 🔬 **Research & Faculty** — 28 funded research projects across 8 departments with 10 faculty profiles
+- 💰 **Sponsor Opportunities** — FYP funding from Rs 12,500 with active MoUs (Komatsu, ASPIRE Pakistan, CIRIAF Italy)
+- 📁 **Resources & Downloads** — 17 documents including real downloadable PDFs and official external links
+- 💬 **Feedback System** — Star rating form with submissions delivered to ORIC team inbox via Formspree
+- 📱 **Fully Responsive** — Mobile-friendly layout with sliding sidebar navigation
+- ⚙️ **Settings** — Profile management and password change
 
-## Technologies Used
+---
 
-* React.js
-* React Router DOM
-* CSS3
-* JavaScript (ES6)
+## Tech Stack
 
-## Installation
+| | |
+|---|---|
+| Framework | React.js 18 |
+| Routing | React Router DOM v6 |
+| Styling | CSS3 — fully custom |
+| Authentication | Local Storage |
+| Form Delivery | Formspree API |
+| Language | JavaScript ES6+ |
 
-1. Clone the repository:
+---
+
+## Getting Started
 
 ```bash
+# Clone the repository
 git clone https://github.com/Diya-Lohana/login_dashboard.git
-```
 
-2. Navigate to the project folder:
-
-```bash
+# Install dependencies
 cd login_dashboard
-```
-
-3. Install dependencies:
-
-```bash
 npm install
-```
 
-4. Start the development server:
-
-```bash
+# Run the development server
 npm start
 ```
 
-## Project Structure
+Open `http://localhost:3000` in your browser.
 
-* Login Page
-* User Dashboard
-* Settings Page
-* Assets and Styling
+---
+
+## Real ORIC Data
+
+All content is based on official ORIC MUET documentation and specifications:
+
+- **Director:** Prof. Dr. Tanweer Hussain · `dir.oric@admin.muet.edu.pk`
+- **Active Partners:** Komatsu Pakistan Mining · ASPIRE Pakistan · CIRIAF–University of Perugia, Italy
+- **Research Centers:** NCRA · USPCAS-W · CRRC · SIREN · ORIC Smart Room
+- **Contact:** +92 22 2772280 Ext. 6500 · WhatsApp: 031-68832427
+- **Website:** [oric.muet.edu.pk](http://oric.muet.edu.pk)
+
+---
 
 ## Author
 
-Diya Lohana
-
-## License
-
-## About
-
-This project was developed during the ORIC MUET Internship Program using React.js.
+**Diya Lohana**
+ORIC MUET Internship Program · June 2026
